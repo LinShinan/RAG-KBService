@@ -11,3 +11,10 @@ separator=["\n\n","\n",".","!","?",",","。","！","？","，"," ",""]
 chunk_size=500
 chunk_overlap=20
 max_split_char_number = 1000
+
+# 模型配置
+chat_model_name="qwen3-max"
+
+
+# 历史记录配置
+history_store_path="./chat_history"
