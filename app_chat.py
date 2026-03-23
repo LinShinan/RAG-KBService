@@ -25,7 +25,7 @@ if question:
     st.session_state["message"].append({"role":"user","content":question})
     with st.spinner("正在思考中..."):
        chain_invoke = st.session_state["rag"].chain.invoke({"input": question},
-                                                         {"configurable": {"session_id": "user_007"}})
+                                                         {"configurable": {"session_id": "user_006"}})
        res_list=[]
 
 
